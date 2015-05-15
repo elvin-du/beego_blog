@@ -1,0 +1,8 @@
+{{range .articles}}
+<a href="/article/{{.Id}}"><h1>{{.Title}}</h1></a>
+<div>{{.Content}}</div>
+<br>
+<div>{{.CreatedAtStr}}</div>
+<hr>
+{{end}}
+
