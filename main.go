@@ -6,8 +6,10 @@ import (
 )
 
 func init(){
+//
     beego.SetLogFuncCall(true)
 	//hotfix
+//issue55
 }
 
 func main() {
