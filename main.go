@@ -7,6 +7,7 @@ import (
 
 func init(){
     beego.SetLogFuncCall(true)
+	//hotfix
 }
 
 func main() {
